@@ -16,10 +16,10 @@ MonoBehaviour:
   lastSaveFormat: 0
   lastEncrypted: 0
   editorHelpLanguageTexts: {fileID: 0}
-  section: 7
-  subSection: 6
-  tabIndex: 14
-  scrollY: 1098
+  section: 9
+  subSection: 0
+  tabIndex: -1
+  scrollY: 0
   foldoutLimit: 
   helpDrag: 132
   subSectionDrag: 279.8
@@ -36,10 +36,13 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: d94b12375d2cbbb4c9402e70560e31de, type: 2}
   - {fileID: 11400000, guid: f2f8051e9247f494994755d3218ed95d, type: 2}
+  - {fileID: 11400000, guid: 160735635a70ee348981359e46a7a1b7, type: 2}
+  - {fileID: 11400000, guid: 473c99dd7ab2388449a18109291227b7, type: 2}
+  - {fileID: 11400000, guid: 7c19d980358a4a646895cb8c027769ec, type: 2}
   - {fileID: 11400000, guid: d67a98c5a59646b48bbd1ad2dcaa48be, type: 2}
   - {fileID: 11400000, guid: 7d017da5f23788344abef0fb2e4650d6, type: 2}
-  - {fileID: 11400000, guid: 7c19d980358a4a646895cb8c027769ec, type: 2}
   - {fileID: 11400000, guid: cdaf444651bd526449fb9551fcae14b9, type: 2}
   - {fileID: 11400000, guid: fdca204b575e44b44bc72f864be6a346, type: 2}
   - {fileID: 11400000, guid: 08fcee19df5dd854b93c1d693c831e08, type: 2}
@@ -53,9 +56,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b7e2d65d80c1dd64d83f2f07ab2ea188, type: 2}
   - {fileID: 11400000, guid: 324de2a08295a5a4f8ff25fa2acb8127, type: 2}
   - {fileID: 11400000, guid: 8a7674f4ecd4cca45bd0509fd52c4ca8, type: 2}
-  - {fileID: 11400000, guid: 678e93c07aa929a41ae8342b0a25924a, type: 2}
-  - {fileID: 11400000, guid: b3cba4a8851169745a0a396ffc5683f5, type: 2}
-  - {fileID: 11400000, guid: 800b0dbc6ebfc6d4590b997addd8f3fa, type: 2}
   dialogueImportSettings:
     name: 
     byteData: 
@@ -76,6 +76,7 @@ MonoBehaviour:
   - craftingProficiency
   - action
   - <name>+
+  - World
   variablesScene: []
   variablesPrefab: []
   foldoutKeys: []

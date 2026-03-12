@@ -12053,6 +12053,148 @@ PrefabInstance:
       value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 1823708553820690255, guid: c7dcdda2568dae0498903162a759db3f, type: 3}
+      propertyPath: serialize_setting.xmlData
+      value: '<xmldata>
+
+        <_float volume="1" />
+
+        <_bool blockPlayerControl="True"
+        blockCameraControl="True" useSpawnOffset="False" useCustomChangeType="False"
+        waitForAudio="False" ownScreenFade="False" />
+
+        <_string>
+
+        <customChangeType><![CDATA[]]></customChangeType>
+
+        </_string>
+
+        <ignoreOffsetAxes>
+
+        <_bool
+        x="False" y="False" z="False" />
+
+        </ignoreOffsetAxes>
+
+        <changeAfterSetting>
+
+        <_bool
+        setVariables="False" />
+
+        </changeAfterSetting>
+
+        <_subarrays>
+
+        <target>
+
+        <0
+        positionType="1" loadType="0" >
+
+        <_bool reloadScene="False" />
+
+        <sceneName>
+
+        <_string>
+
+        <type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></type>
+
+        </_string>
+
+        <settings>
+
+        <_string>
+
+        <value><![CDATA[Dungeon
+        Level 2]]></value>
+
+        <_type><![CDATA[GamingIsLove.Makinom.StringValue_ValueType`1]]></_type>
+
+        </_string>
+
+        </settings>
+
+        </sceneName>
+
+        <spawnID>
+
+        <_string>
+
+        <type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></type>
+
+        </_string>
+
+        <settings>
+
+        <_float
+        value="0" />
+
+        <_string>
+
+        <_type><![CDATA[GamingIsLove.Makinom.FloatValue_ValueType`1]]></_type>
+
+        </_string>
+
+        </settings>
+
+        <mathFunction>
+
+        <_string>
+
+        <type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></type>
+
+        </_string>
+
+        <settings>
+
+        <_string>
+
+        <_type><![CDATA[GamingIsLove.Makinom.Math.NoneMathFunction]]></_type>
+
+        </_string>
+
+        </settings>
+
+        </mathFunction>
+
+        </spawnID>
+
+        <scale>
+
+        <_string>
+
+        <type><![CDATA[GamingIsLove.Makinom.Vector3Value_ValueType`1]]></type>
+
+        </_string>
+
+        <settings>
+
+        <_floatarrays>
+
+        <value
+        1 1 1 />
+
+        </_floatarrays>
+
+        <_string>
+
+        <_type><![CDATA[GamingIsLove.Makinom.Vector3Value_ValueType`1]]></_type>
+
+        </_string>
+
+        </settings>
+
+        </scale>
+
+        </0>
+
+        </target>
+
+        </_subarrays>
+
+        </xmldata>
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823708553820690255, guid: c7dcdda2568dae0498903162a759db3f, type: 3}
       propertyPath: serialize_setting.byteData.Array.size
       value: 0
       objectReference: {fileID: 0}
@@ -22800,7 +22942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5098348295462450207, guid: 13c13869fa47d194a800e7036d6896d8, type: 3}
       propertyPath: m_Name
-      value: WitchTownSnakeQuest
+      value: GoodSnakeQuest
       objectReference: {fileID: 0}
     - target: {fileID: 5587604222824787621, guid: 13c13869fa47d194a800e7036d6896d8, type: 3}
       propertyPath: m_RootOrder
@@ -22865,6 +23007,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5098348295462450207, guid: 13c13869fa47d194a800e7036d6896d8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1326785242}
+    - targetCorrespondingSourceObject: {fileID: 5098348295462450207, guid: 13c13869fa47d194a800e7036d6896d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1326785249}
   m_SourcePrefab: {fileID: 100100000, guid: 13c13869fa47d194a800e7036d6896d8, type: 3}
 --- !u!1 &1326785241 stripped
 GameObject:
@@ -23150,7 +23295,7 @@ MonoBehaviour:
 '
     lookUp:
       assets:
-      - {fileID: 11400000, guid: 7c19d980358a4a646895cb8c027769ec, type: 2}
+      - {fileID: 11400000, guid: d94b12375d2cbbb4c9402e70560e31de, type: 2}
     encrypted: 0
     stringData: 
   actor:
@@ -23286,6 +23431,27 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5587604222824787621, guid: 13c13869fa47d194a800e7036d6896d8, type: 3}
   m_PrefabInstance: {fileID: 1326785240}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1326785249
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326785241}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.75, y: 2.66, z: 2.39}
+  m_Center: {x: 0, y: 1.7, z: 0.16}
 --- !u!1001 &1342191596
 PrefabInstance:
   m_ObjectHideFlags: 0
