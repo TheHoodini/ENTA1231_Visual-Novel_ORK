@@ -25991,7 +25991,7 @@ MonoBehaviour:
       <_float
       chance="100" />
 
-      <_bool useGroup="False" />
+      <_bool useGroup="True" />
 
       <faction>
 
@@ -26032,15 +26032,18 @@ MonoBehaviour:
 
       </_string>
 
+      <_asset
+      asset="1" />
+
       </settings>
 
       </group>
 
-      <member
-      battleGroupIndex="0" >
+      <member battleGroupIndex="0"
+      >
 
-      <_bool useType="False" useSubTypes="False" learnAbilities="True"
-      useStartInventory="True" useStartEquipment="True" useInitSchematic="True" blockConditionalPrefabs="False"
+      <_bool useType="False" useSubTypes="False" learnAbilities="True" useStartInventory="True"
+      useStartEquipment="True" useInitSchematic="True" blockConditionalPrefabs="False"
       isPassive="False" passiveMustDefeat="False" setBattleGroupIndex="False" useLevelZone="True"
       classUseLevelZone="True" />
 
@@ -26061,7 +26064,7 @@ MonoBehaviour:
       </_string>
 
       <_asset
-      asset="1" />
+      asset="2" />
 
       </settings>
 
@@ -26136,6 +26139,7 @@ MonoBehaviour:
     lookUp:
       assets:
       - {fileID: 11400000, guid: 2384e56236ae84340967b802cbad6bd8, type: 2}
+      - {fileID: 11400000, guid: ae9ce3be8a0226d46bd862382aee748b, type: 2}
       - {fileID: 11400000, guid: 729838694b49b824898607196d04db55, type: 2}
     encrypted: 0
     stringData: 

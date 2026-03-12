@@ -7910,7 +7910,7 @@ MonoBehaviour:
     xmlData: '<xmldata>
 
       <assetSetting executionType="0" updateType="0" priority="0"
-      endAction="0" >
+      endAction="2" >
 
       <_float startDelayTime="0" endDelayTime="0" autoStopCheckTime="0"
       />
@@ -61412,8 +61412,8 @@ MonoBehaviour:
 
       <_bool useType="False" useSubTypes="False" learnAbilities="True"
       useStartInventory="True" useStartEquipment="True" useInitSchematic="True" blockConditionalPrefabs="False"
-      isPassive="False" passiveMustDefeat="False" setBattleGroupIndex="False" useLevelZone="True"
-      classUseLevelZone="True" />
+      isPassive="False" passiveMustDefeat="False" setBattleGroupIndex="False" useLevelZone="False"
+      classUseLevelZone="False" />
 
       <combatant>
 
@@ -61438,17 +61438,17 @@ MonoBehaviour:
 
       </combatant>
 
-      <level type="0"
-      minOffset="-5" maxOffset="5" minRandom="1" maxRandom="99" >
+      <level type="1"
+      minOffset="0" maxOffset="5" minRandom="1" maxRandom="99" >
 
-      <_float
-      formulaInitialValue="0" />
+      <_float formulaInitialValue="0"
+      />
 
       <_bool onlyBattle="False" />
 
       <_string>
 
-      <key><![CDATA[]]></key>
+      <key><![CDATA[5]]></key>
 
       </_string>
 

@@ -36,10 +36,13 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   schematicAsset:
+  - {fileID: 11400000, guid: 3ca5af91ad9600a4cba4312193a74f8a, type: 2}
+  - {fileID: 11400000, guid: 8e68bf16aae893f40bd2af814c1cc69a, type: 2}
+  - {fileID: 11400000, guid: 473c99dd7ab2388449a18109291227b7, type: 2}
+  - {fileID: 11400000, guid: ab455b171347aff4dbebbedfd5d6cdbe, type: 2}
+  - {fileID: 11400000, guid: 160735635a70ee348981359e46a7a1b7, type: 2}
   - {fileID: 11400000, guid: d94b12375d2cbbb4c9402e70560e31de, type: 2}
   - {fileID: 11400000, guid: f2f8051e9247f494994755d3218ed95d, type: 2}
-  - {fileID: 11400000, guid: 160735635a70ee348981359e46a7a1b7, type: 2}
-  - {fileID: 11400000, guid: 473c99dd7ab2388449a18109291227b7, type: 2}
   - {fileID: 11400000, guid: 7c19d980358a4a646895cb8c027769ec, type: 2}
   - {fileID: 11400000, guid: d67a98c5a59646b48bbd1ad2dcaa48be, type: 2}
   - {fileID: 11400000, guid: 7d017da5f23788344abef0fb2e4650d6, type: 2}
@@ -53,9 +56,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0444145c7e4144c46b9d188515817ef6, type: 2}
   - {fileID: 11400000, guid: df2a5fa32e416de4da6ca624efadc7ea, type: 2}
   - {fileID: 11400000, guid: a7b1448fdccb61249951dc77d89c17ff, type: 2}
-  - {fileID: 11400000, guid: b7e2d65d80c1dd64d83f2f07ab2ea188, type: 2}
-  - {fileID: 11400000, guid: 324de2a08295a5a4f8ff25fa2acb8127, type: 2}
-  - {fileID: 11400000, guid: 8a7674f4ecd4cca45bd0509fd52c4ca8, type: 2}
   dialogueImportSettings:
     name: 
     byteData: 
