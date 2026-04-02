@@ -311,7 +311,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d6c412edebe67784b9b838fc1998129a, type: 2}
+  - {fileID: 2100000, guid: 7366aeba3db0b2f42b6b87a0b16a40df, type: 2}
   - {fileID: 2100000, guid: 332e77426caa052498daf38b2b1c9324, type: 2}
   - {fileID: 2100000, guid: c83649c20ad8d5743ac1734a9f9bb3fc, type: 2}
   - {fileID: 2100000, guid: 4cdfba666e2c7f142b48e49162dcb7f8, type: 2}
@@ -602,7 +602,7 @@ GameObject:
   - component: {fileID: 5949092929574644694}
   - component: {fileID: 8061440002452778915}
   m_Layer: 10
-  m_Name: Snake_angry
+  m_Name: Snake_good
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
